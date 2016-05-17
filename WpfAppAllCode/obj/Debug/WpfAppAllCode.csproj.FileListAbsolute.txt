@@ -1,0 +1,6 @@
+D:\Work\Projects\C#\WpfAppAllCode\WpfAppAllCode\bin\Debug\WpfAppAllCode.exe.config
+D:\Work\Projects\C#\WpfAppAllCode\WpfAppAllCode\bin\Debug\WpfAppAllCode.exe
+D:\Work\Projects\C#\WpfAppAllCode\WpfAppAllCode\bin\Debug\WpfAppAllCode.pdb
+D:\Work\Projects\C#\WpfAppAllCode\WpfAppAllCode\obj\Debug\WpfAppAllCode.csprojResolveAssemblyReference.cache
+D:\Work\Projects\C#\WpfAppAllCode\WpfAppAllCode\obj\Debug\WpfAppAllCode.exe
+D:\Work\Projects\C#\WpfAppAllCode\WpfAppAllCode\obj\Debug\WpfAppAllCode.pdb

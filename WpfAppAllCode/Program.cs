@@ -22,12 +22,16 @@ namespace WpfAppAllCode
 
         static void AppStartUp(object sender, StartupEventArgs e)
         {
-            Window mainWindow = new Window();
-            mainWindow.Title = "My First WPF App!";
-            mainWindow.Height = 200;
-            mainWindow.Width = 300;
-            mainWindow.WindowStartupLocation = WindowStartupLocation.CenterScreen;
-            mainWindow.Show();
+            Current.Properties["GodMode"] = false;
+            foreach (string arg in e.Args)
+            {
+                if (arg.ToLower() == "/godmode")
+                {
+                    Current.Properties["GodMode"] = true;
+                    break;
+                }
+            }
+            MainWindow wnd = new MainWindow("My better WPF App!", 200, 300);
         }
     }
 }
